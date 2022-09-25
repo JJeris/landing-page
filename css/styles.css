@@ -142,7 +142,9 @@ a {
 
 /* INFO */
 .info {
-    padding-bottom: 120px;
+    /* padding-bottom: 120px; */
+    /* padding-bottom: 10%; */
+    
 }
 
 .info-heading {
@@ -160,6 +162,7 @@ a {
     justify-content: center;
     gap: 1em;
     text-align: center;
+    /* margin: 0 20%; */
     /* margin-bottom: 2em; */
 }
 
@@ -210,11 +213,12 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-left: 10%;
-    margin-right: 10%;
+    /* margin-left: 10%; */
+    /* margin-right: 10%; */
     /* border: 1px solid red; */
     justify-content: center;
     align-items: center;
+    margin: 0 20%;
 }
 .inspo-text {
     font-size: 36px;
