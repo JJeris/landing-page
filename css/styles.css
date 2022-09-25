@@ -66,7 +66,7 @@ a {
 
 .navigation {
     background-color: #1F2937;
-    color: white;
+    color: #f9faf8;
     display: flex;
     justify-content: space-around;
     /* gap: 1em; */
@@ -122,6 +122,7 @@ a {
     max-width: 400px;
     font-size: 20px;
     margin: 1em 0;
+    color: #f9faf8;
 }
 
 .top-button button{
@@ -140,7 +141,12 @@ a {
 
 
 /* INFO */
+.info {
+    padding-bottom: 120px;
+}
+
 .info-heading {
+    color: #1F2937;
     font-size: 48px;
     display: flex;
     justify-content: center;
@@ -179,10 +185,14 @@ a {
 .box img {
     height: inherit;
     width: inherit;
+    border-radius: 5px;
+    border: none;
+    overflow: none;
 }
 
 .box-text {
     max-width: 200px;
+    margin-top: 10px;
 }
 
 /* INSPO */
@@ -190,20 +200,21 @@ a {
     /* padding-top: 8em; */
     /* padding-bottom: 8em; */
     background-color: #E5E7EB;
-    /* justify-content: center; */
-    /* align-items: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .inspo-content {
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
-    /* align-items: center; */
+    justify-content: center;
+    align-items: center;
     margin-left: 10%;
     margin-right: 10%;
-    border: 1px solid red;
-    /* justify-content: center; */
-    /* align-items: center; */
+    /* border: 1px solid red; */
+    justify-content: center;
+    align-items: center;
 }
 .inspo-text {
     font-size: 36px;
@@ -212,16 +223,17 @@ a {
     display: flex;
     text-align: left;
     /* flex-direction: column; */
+    justify-content: center;
+    align-items: centers;
     
 }
-
-
 
 .author {
     color: #1F2937;
     font-weight: 700;
     text-align: right;
     font-size: 24px;
+    margin-left: auto;
 }
 
 /* SIGN UP */
@@ -232,11 +244,31 @@ a {
 }
 
 .sign-up-content {
+    flex: 1;
     background-color: #3882F6;
     border-radius: 5px;
     padding: 30px 70px;
-    margin: 20px;
+    margin: 0 20%;
     color: white;
+    display: flex;
+    /* justify-content: center; */
+    /* column-gap: 1em; */
+}
+
+.sign-up-text {
+    flex: 1;
+}
+
+.sign-up-button button {
+    
+    /* margin-left: auto; */
+    background-color: #3882F6;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px 20px;
+
+
 }
 
 
